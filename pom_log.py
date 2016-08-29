@@ -1,5 +1,6 @@
 from Tkinter import *
 from ttk import *
+from time import strftime
 
 def task_logger(args*):
   #task = raw_entry()
@@ -9,6 +10,9 @@ def timer(args*):
   #break = take data from break widget (float)
   #work = take data from pom widget (float)
   #set alarm for t minutes after break, work
+
+#get current time & date:
+#date, time = split(strftime("%m-%d-%Y, %H:%M"), ",") #still need to make these date and time variables
 
 root = Tk()
 root.title("Pomodoro Task Logger")
